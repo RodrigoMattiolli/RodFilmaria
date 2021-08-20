@@ -1,0 +1,47 @@
+
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-top: 15px;
+}
+
+.info h1{
+    margin-bottom: 12px;
+}
+
+.info img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.info h3{
+    margin-bottom: 5px;
+}
+
+.info button{
+    margin-top: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    padding: 12px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.info button:hover{
+    background-color: brown;
+    color:white;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+}
+
+.info a:hover{
+    color: white;
+}
+
